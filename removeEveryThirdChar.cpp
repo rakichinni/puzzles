@@ -35,8 +35,8 @@ int main()
             strcpy(temp, p+1);
             strcpy(p, temp);
         }
-        cout << "*p: " << *p << endl;
-        cout << "str: " << str << endl;
+        //cout << "*p: " << *p << endl;
+        //cout << "str: " << str << endl;
     }
     cout << str << endl;
 }
