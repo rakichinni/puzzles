@@ -32,6 +32,8 @@ int main()
         else
         {
             char temp[10] = {};
+            if (*p == '\0')
+                p = str;
             strcpy(temp, p+1);
             strcpy(p, temp);
         }
